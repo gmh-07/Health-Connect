@@ -1,0 +1,273 @@
+@font-face {
+    font-family: PP mori;
+    src: url(./ppmori.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: PP mori;
+    color: #fff;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+/* 1,2,3 go css code starts here */
+#pageani {
+    background-color: rgb(234, 96, 96);
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+#pageani>h1 {
+    font-size: 90px;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+#lowest {
+    margin-left: 40vw;
+    padding: 3%;
+}
+
+#second-lowest {
+    margin-left: 40vw;
+    padding: 3%;
+}
+
+#second-top {
+    margin-left: 35vw;
+    padding: 3%;
+}
+
+#top {
+    margin-left: 13vw;
+    padding: 3%;
+}
+/* 1,2,3 go css code ends here */
+
+#purple{
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    z-index: 100;
+    background-color: #e3a3fc;
+    opacity: 0;
+    display: none;
+    transition: opacity ease 1s;
+    
+}
+.cursor{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: fixed;
+    background-color: #EDBFFF;
+    z-index: 8;
+    transition: background-image ease 0.5s;
+    background-position: center;
+    background-size:cover ;
+    mix-blend-mode: difference;
+}
+.main{
+    background-color: #0F0D0D;
+    cursor: none;
+}
+
+.page1{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 9;
+    padding-top: 12vw;
+}
+
+
+#nav{
+    height: 55px;
+    padding: 0 30px;
+    position: fixed;
+    mix-blend-mode: difference;
+    z-index:102;
+}
+#nav img{
+    height: 6vh;
+    margin-left: 2vw;
+    margin-top: 2vw;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+#nav h4{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.page1 h1{
+    font-size: 8vw;
+    font-weight: 300;
+    font-family: PP mori;
+
+    margin-left: 6vw;
+    transform-origin: left;
+}
+.page1 h2{
+    font-size: 8vw;
+    font-weight: 300;
+    transform-origin: left;
+
+    margin-left: 26vw;
+}
+
+.page1 video{
+    width: 60%;
+    margin-top: 10vw;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.page2{
+    min-height: 80vh;
+    width: 100%;
+    padding: 100px 5vw;
+    border-bottom: 2px solid #6c6c6c;
+    position: relative;
+    z-index: 9;
+}
+
+.page2 h1{
+    font-size:7vw;
+    font-weight: 500;
+    color: #111;
+
+}
+.page2-container{
+    height: 60vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0 5vw; */
+}
+.page2-left{
+    /* background-color: blue; */
+    width: 40%;
+}
+.page2-right{
+    /* background-color: blue; */
+    width: 40%;
+}
+.page2-left h2{
+    font-size: 4vw;
+    font-weight: 300;
+    color: #111;
+    line-height: 4vw;
+}
+.page2-right img{
+    height: 70vh;
+}
+
+.page3{
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 100px;
+    position: relative;
+    z-index: 9;
+}
+
+.page3 h1{
+    font-size: 6.8vw;
+    font-weight: 300;
+    color: #111;
+    margin-left: 100px;
+}
+.page3-part1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+.page3-part1 img{
+    height: 400px;
+    margin-top: 160px;
+}
+.page3-part1 video{
+    height: 400px;
+    margin-top: 40px;
+}
+.page5{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 9;
+    padding: 140px 100px;
+}
+.page5 h2{
+    font-size: 4vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.box{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0 20px;
+    border-top: 2px solid #dadada;
+}
+
+.box:nth-last-child(1){
+    border-bottom: 2px solid #dadada;
+
+}
+
+/* Footer Code starts here */
+
+footer{
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height:50vh;
+    padding: 0 60px;
+    color: #16a085;
+    border-top: 2px solid grey;
+    }
+    #yt{
+      font-size: 30px;
+      color: red;
+      margin: 1px;
+      padding: 1px;
+    }
+    #insta{
+      font-size: 30px;
+      color: rgb(205, 16, 219);
+      margin: 1px;
+      padding: 1px;
+    }
+    #fb{
+      font-size: 30px;
+      color: rgb(20, 50, 216);
+      margin: 1px;
+      padding: 1px;
+    }
+    #twit{
+      font-size: 30px;
+      color: rgb(16, 205, 212);
+      margin: 1px;
+      padding: 1px;
+    }
+    #discord{
+      font-size: 30px;
+      color: rgb(106, 102, 102);
+      margin: 1px;
+      padding: 1px;
+    }
